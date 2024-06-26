@@ -15,13 +15,12 @@ This project demonstrates the implementation of **Neural Style Transfer (NST)** 
 ![Image Processing](https://img.shields.io/badge/SkillImage%20Processing-brightblue)
 ![Python Programming](https://img.shields.io/badge/Skill-Python%20Programming-orange)
 
-## Project File Structure
+## Project Architecture
 
-```bash
-├── Art_Generation_with_Neural_Style_Transfer.ipynb                                          # Main Notebook with project implementation
-├── nst_utils.py                                                                             # Utility functions for Neural Style Transfer
-└── public_tests.py                                                                          # Test cases to validate Neural Style Transfer implementation
-```
+**Input Processing:** Load and preprocess content and style images.
+**Model Architecture:** Use a pre-trained VGG19 network to extract features.
+**Loss Calculation:** Compute content loss, style loss, and total variation loss.
+**Optimization:** Minimize the total loss using an optimizer to generate the final image.
 
 ## Frameworks and Libraries
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16.1-orange.svg?style=flat&logo=tensorflow)
@@ -29,13 +28,6 @@ This project demonstrates the implementation of **Neural Style Transfer (NST)** 
 ![NumPy](https://img.shields.io/badge/NumPy-1.26.4-blue.svg?style=flat&logo=numpy)
 ![SciPy](https://img.shields.io/badge/SciPy-1.10.1-yellow.svg?style=flat&logo=SciPy)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.6.2-green.svg?style=flat&logo=matplotlib)
-
-## Project Architecture
-
-**Input Processing:** Load and preprocess content and style images.
-**Model Architecture:** Use a pre-trained VGG19 network to extract features.
-**Loss Calculation:** Compute content loss, style loss, and total variation loss.
-**Optimization:** Minimize the total loss using an optimizer to generate the final image.
 
 ## Key Features
 - Preprocessing of images for face detection and alignment
