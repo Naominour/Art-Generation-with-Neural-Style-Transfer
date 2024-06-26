@@ -15,6 +15,14 @@ This project demonstrates the implementation of **Neural Style Transfer (NST)** 
 ![Image Processing](https://img.shields.io/badge/SkillImage%20Processing-brightblue)
 ![Python Programming](https://img.shields.io/badge/Skill-Python%20Programming-orange)
 
+## Project File Structure
+
+```bash
+├── Art_Generation_with_Neural_Style_Transfer.ipynb                                          # Main Notebook with project implementation
+├── nst_utils.py                                                                             # Utility functions for Neural Style Transfer
+└── public_tests.py                                                                          # Test cases to validate Neural Style Transfer implementation
+```
+
 ## Frameworks and Libraries
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16.1-orange.svg?style=flat&logo=tensorflow)
 ![Keras](https://img.shields.io/badge/Keras-3.3.3-red.svg?style=flat&logo=keras)
