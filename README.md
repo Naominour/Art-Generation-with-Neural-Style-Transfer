@@ -4,7 +4,7 @@ This project demonstrates the implementation of **Neural Style Transfer (NST)** 
 
 
 <div align="center">
-<img src="images\art.png" style="width:450px;"> <br>
+<img src="images\art.png" style="width:750px;"> <br>
 </div>
 
 ![Deep Learning](https://img.shields.io/badge/Skill-Deep%20Learning-yellow)
@@ -61,6 +61,8 @@ As you can see the output of the project is a series of images where the style o
 
 
 <div align="center">
+<img src="images\art.png" style="width:750px;"> <br>
+
 <center><img src="images/perspolis_vangogh.png" style="width:750px;height:300px;"></center>
 
 <center><img src="images/pasargad_kashi.png" style="width:750px;height:300px;"></center>
